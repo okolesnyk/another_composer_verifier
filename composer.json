@@ -2,7 +2,7 @@
   "name": "okolesnyk/another_composer_verifier",
   "description": "Composer verifier",
   "type": "library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "AGPL-3.0",
   "keywords": ["automation", "functional", "testing"],
   "config": {
