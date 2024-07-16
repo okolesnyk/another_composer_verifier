@@ -9,31 +9,8 @@
     "sort-packages": true
   },
   "require": {
-    "php": "7.0.2||7.0.4||~7.0.6||~7.1.0||~7.2.0||~7.3.0",
-    "ext-curl": "*",
-    "ext-json": "*",
-    "ext-openssl": "*",
-    "allure-framework/allure-codeception": "~1.3.0",
-    "codeception/codeception": "~2.4.5",
-    "composer/composer": "^1.4",
-    "okolesnyk/composer_verifier": "3.0.1"
-  },
-  "suggest": {
-    "epfremme/swagger-php": "^2.0"
-  },
-  "replace": {
-    "facebook/webdriver": "^1.7.1"
-  },
-  "autoload": {
-    "files": ["src/Magento/FunctionalTestingFramework/_bootstrap.php"],
-    "psr-4": {
-      "Magento\\FunctionalTestingFramework\\": "src/Magento/FunctionalTestingFramework",
-      "MFTF\\": "dev/tests/functional/MFTF"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "tests\\unit\\": "dev/tests/unit"
-    }
+    "php": "8.*",
+    "composer/composer": "^2",
+    "okolesnyk/composer_verifier": "3.0.2"
   }
 }
